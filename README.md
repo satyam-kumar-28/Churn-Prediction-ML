@@ -13,15 +13,20 @@ This project focuses on analyzing customer churn data using Python and Pandas.
 - Handled missing values
 - Converted categorical data (Yes/No → 1/0)
 
+## 🚀 Day 3: Exploratory Data Analysis (EDA)
+- Visualized churn distribution
+- Analyzed customer behavior using graphs
+
 ## 📂 Project Structure
-CHURN-PREDICTION-ML/
+churn-prediction-ml/
 │
 ├── data/
 │ └── churn.csv
 │
 ├── notebooks/
 │ ├── day1_data_loading.py
-│ └── day2_data_cleaning.py
+│ ├── day2_data_cleaning.py
+│ └── day3_eda.py
 │
 ├── README.md
 └── requirements.txt
@@ -30,11 +35,13 @@ CHURN-PREDICTION-ML/
 ## 🛠️ Tech Used
 - Python
 - Pandas
+- Matplotlib
+- Seaborn
 
 ## 📊 Dataset
 Telco Customer Churn dataset
 
 ## 🔜 Next Steps
-- Exploratory Data Analysis (EDA)
-- Visualization
+- Feature Engineering
 - Machine Learning Model
+- Prediction System
